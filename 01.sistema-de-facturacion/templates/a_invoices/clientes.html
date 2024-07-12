@@ -1,0 +1,14 @@
+<style>
+  body {
+    background-color: beige;
+  }
+</style>
+
+{% comment %} Rellenar todos los campos de Cliente{% endcomment %}
+
+<h2>Cliente: #{{ cliente.id }}</h2>
+
+<p>Nombre: {{ cliente.nombre }}</p>
+
+<hr>
+<a href="{% url 'invoices' %}">Volver a lista</a>
