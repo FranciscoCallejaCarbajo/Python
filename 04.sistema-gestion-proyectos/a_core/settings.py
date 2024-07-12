@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'a_home',
     'a_users',
     'a_invoices',
+    'bootstrap4',
 ]
 
 SITE_ID = 1
